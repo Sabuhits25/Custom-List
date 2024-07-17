@@ -68,7 +68,12 @@ public class CustomList<T> : IEnumerable<T>
             Lists = new T[0];
         }
     
-
+    public T[] FindAll (T item)
+    {
+        T[] arr1 = new T[0];
+        arr1 = Array.FindAll(arr1,x=>x.Equals(item));
+        return arr1;
+    }
   
     
        

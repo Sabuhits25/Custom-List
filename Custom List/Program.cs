@@ -7,3 +7,4 @@ lists.Add(2);
 lists.Add(3);
 lists.Remove(1);
 Console.WriteLine();
+Console.WriteLine();
