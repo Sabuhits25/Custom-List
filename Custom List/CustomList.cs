@@ -5,10 +5,6 @@ namespace Custom_List;
 public class CustomList<T> : IEnumerable<T>
 {
     public T[] Lists;
-    public IEnumerator<T> GetEnumerator()
-    {
-        throw new NotImplementedException();
-    }
 
     public void Remove(T item)
     {

@@ -5,6 +5,7 @@ CustomList <int> lists = new CustomList<int>();
 lists.Add(1);
 lists.Add(2);
 lists.Add(3);
-lists.Remove(1);
-Console.WriteLine();
-Console.WriteLine();
+foreach (int item in lists)
+{
+    Console.WriteLine(item);
+}
